@@ -1,0 +1,13 @@
+{
+	"auditexp.local"			: {"port": 8080, "sport": 8443},
+	"emag-service.local"		: {"port": 8080, "sport": 8443},
+	"hac.local"					: {"port": 8080, "sport": 8443},
+	"static.hac.local"			: {"port": 8080, "sport": 8443},
+	"hapi.local"				: {"port": 1337, "sport": 44303},
+	"localhost"					: {"name": "192.168.4.100", "sport": 443},
+	"cms.local"					: {"port": 9294},
+	"default.proxy"				: {"port": 81},
+	"teamcity.huzutech.com"		: {"name": "107.22.232.40", "port": 80},
+	"template.local"			: {"port": 9296},
+	"fooddudes.local"			: {"port": 4562}
+}

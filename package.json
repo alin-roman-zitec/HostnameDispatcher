@@ -1,0 +1,24 @@
+{
+    "name": "HostnameDispatcher",
+    "version": "1.0.2",
+    "author": {
+		"name": "Alin Roman",
+		"email": "alin.roman@zitec.ro"
+	},
+	"maintainers": [
+		{
+			"name": "Alin Roman",
+			"email": "alin.roman@zitec.ro"
+		}
+	],
+    "description": "A tool to capture requests on 80 and 443 ports and proxy them to different services.",
+    "dependencies": {
+        "http-proxy": "0.10.x",
+		"winser": "0.1.6",
+		"log4js": "*"
+    },
+    "scripts": {
+		"postinstall": "winser -i -s -c",
+		"preuninstall": "winser -r -x -s"
+    }
+}
